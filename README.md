@@ -17,7 +17,7 @@ Contoso Video has provided a database document for their current (test) Movies d
 
 We have provided a data generator that simulates orders from the website and pumps them into Azure Event Hubs. You will use this generator in some of the challenges, but it is a good idea to configure it beforehand. The data generator is deployed as a .NET Core 3.0 self-contained deployment (SCD) package. This means that the .NET Core runtime is included within each platform folder, so you do not need to download the .NET Core 3.0 SDK as a pre-requisite.
 
-1. [Download the zip file](https://databricksdemostore.blob.core.windows.net/data/nosql-openhack/DataGenerator.zip) and extract it to your desktop.
+1. [Download the zip file](https://openhackguides.blob.core.windows.net/no-sql-artifacts/DataGenerator.zip) and extract it to your desktop.
 
 2. Open the folder containing the extracted files, then open either the `linux-x64`, `osx-x64`, or `win-x64` subfolder, based on your environment.
 
