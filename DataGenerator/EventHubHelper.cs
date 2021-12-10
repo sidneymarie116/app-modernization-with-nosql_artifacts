@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Contoso.Apps.Common
+namespace DataGenerator.Common
 {
     public class EventHubHelper
     {
@@ -18,7 +18,6 @@ namespace Contoso.Apps.Common
             };
 
             eventHubClient = EventHubClient.CreateFromConnectionString(connectionStringBuilder.ToString());
-
         }
         public async Task SendMessageToEventHub(byte[] message)
         {
